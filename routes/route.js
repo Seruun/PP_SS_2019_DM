@@ -51,6 +51,27 @@ router.get('/', function(req, res, next) {
     });
 });
 
+router.get('/association', function(req, res, next) {
+
+    res.render('association', {
+        // lang: detectLang(req)
+    });
+});
+
+router.get('/gallery', function(req, res, next) {
+
+    res.render('gallery', {
+        // lang: detectLang(req)
+    });
+});
+
+router.get('/pension', function(req, res, next) {
+
+    res.render('pension', {
+        // lang: detectLang(req)
+    });
+});
+
 /* GET Impressum page. */
 router.get('/impressum', function(req, res, next) {
 

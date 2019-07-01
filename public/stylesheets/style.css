@@ -4,8 +4,9 @@ body {
     margin-bottom: 60px;
 }
 
-p {
-    font-weight: 400;
+p,
+li {
+    font-weight: 400 !important;
 }
 
 h2 {
@@ -14,29 +15,33 @@ h2 {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px;
     /* Vertically center the text there */
-    background-color: #293133;
+    background-color: #a1abad;
+}
+
+.bg-dark {
+    background-color: #a1abad !important;
 }
 
 .text_color_white {
     color: whitesmoke;
 }
 
+.footer .copyright {
+    color: black !important;
+}
+
 .primary_color {
-    color: #293133;
+    color: #a1abad;
 }
 
 .secondary_color,
 .text_color_red,
 li.a,
 a {
-    color: #a2231d !important;
+    color: #42d7f5 !important;
     font-weight: bolder;
 }
 
