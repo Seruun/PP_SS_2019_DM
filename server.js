@@ -23,7 +23,7 @@ app.use(i18nextMiddleware.handle(i18next));
 app.engine('html', hbs.__express);
 app.set('view engine', 'html');
 
-//app.use(favicon(path.join(__dirname, 'public', 'img', 'brand', 'favicon.png')));
+app.use(favicon(path.join(__dirname, 'public', 'img', 'favicon', 'favicon-32x32.png')));
 // app.use(logger('tiny'));
 app.use(bodyParser.json({
     limit: '5mb'
