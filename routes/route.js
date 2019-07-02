@@ -73,7 +73,7 @@ router.get('/pension', function(req, res, next) {
 });
 
 /* GET Impressum page. */
-router.get('/impressum', function(req, res, next) {
+router.get('/imprint', function(req, res, next) {
 
     res.render('imprint', {
         // lang: detectLang(req)
