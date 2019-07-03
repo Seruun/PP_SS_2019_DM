@@ -8,6 +8,14 @@ header {
     margin-bottom: 150px;
 }
 
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .navbar-brand,
+.footer li.a,
+.footer a,
+.footer .copyright {
+    font-size: 1.0rem !important;
+}
+
 p,
 li {
     font-weight: 400 !important;
